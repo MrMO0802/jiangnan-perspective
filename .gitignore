@@ -1,0 +1,26 @@
+# Local source ebooks and extracted text must not be committed
+*.azw3
+*.mobi
+*.epub
+*.pdf
+*.txt
+*.html
+*.xhtml
+*.srt
+*.vtt
+
+# Local corpus/source folders
+references/sources/**
+local/**
+corpus/**
+/tmp/**
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Runtime/cache
+__pycache__/
+*.pyc
