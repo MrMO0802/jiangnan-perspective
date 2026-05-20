@@ -1,8 +1,8 @@
 # jiangnan-perspective
 
-A Codex skill that distills the public creative thinking patterns of Chinese fantasy writer Jiang Nan (Yang Zhi) into a practical writing and story-design assistant.
+A Codex skill that distills the public creative thinking patterns of Chinese fantasy writer Jiang Nan (Yang Zhi) into a practical writing, revision, and story-design assistant.
 
-This skill is designed for high-level creative analysis and original writing guidance. It does not contain Jiang Nan's books, does not reproduce protected text, and should not be used to generate close imitations of *Dragon Raja* or any other copyrighted work.
+This skill is designed for high-level creative analysis, chapter-level revision, character-voice diagnosis, and original writing guidance. It does not contain Jiang Nan's books, does not reproduce protected text, and should not be used to generate close imitations of *Dragon Raja* or any other copyrighted work.
 
 ## What It Does
 
@@ -13,6 +13,9 @@ Use this skill when you want help with:
 - youth/coming-of-age character arcs
 - secret-school or hidden-world entry scenes
 - dialogue that advances both information and relationships
+- chapter revision that starts from structure instead of surface polish
+- *Dragon Raja* character-voice diagnosis at a high-level craft level
+- original fiction advice without copying *Dragon Raja* character voices
 - IP adaptation risk analysis
 - author rights, publishing, and creative-control reasoning
 - reviewing a draft for "too much exposition" or weak emotional stakes
@@ -38,6 +41,11 @@ The skill includes seven story-craft modules:
 5. **Emotional debt comes before sacrifice**
 6. **Worldbuilding pulls with mystery and pays off with emotion**
 7. **Youthfulness is the powerless person's wish to be summoned**
+
+It also includes two revision-focused systems:
+
+- **Chapter revision protocol**: identify the chapter's job, emotional anchor, pressure ladder, character roles, and dialogue constraints before rewriting sentences.
+- ***Dragon Raja* character-voice matrix**: high-level voice and behavior constraints for major characters such as Lu Mingfei, Chu Zihang, Nono, Lu Mingze, Caesar, Fingel, Erii, Anjou, Su Enxi, and Zero.
 
 These modules are intended as reusable craft mechanisms, not as sentence-level style imitation.
 
@@ -66,6 +74,14 @@ Then restart Codex so the new skill is loaded.
 用江南视角帮我判断：这个幻想 IP 适不适合先做电影，而不是动画或剧集？
 ```
 
+```text
+我给你一幕《龙族》同人章节，感觉只是表皮润色。请先重构章节重点，再诊断人物声音，不要直接仿写原文。
+```
+
+```text
+我想写一个原创现代奇幻，不是龙族同人。请用江南视角帮我判断这个故事的核心意义和第一卷结构。
+```
+
 ## Repository Contents
 
 ```text
@@ -84,7 +100,9 @@ jiangnan-perspective/
         ├── 05-decisions.md
         ├── 06-timeline.md
         ├── 07-fiction-technique-from-local.md
-        └── 08-darwin-dry-run.md
+        ├── 08-darwin-dry-run.md
+        ├── 09-character-voice-from-local.md
+        └── 10-darwin-character-voice-upgrade.md
 ```
 
 ## Sources and Method
@@ -94,8 +112,9 @@ The skill is based on:
 - public interviews and media reports about Jiang Nan's writing, publishing, and IP views
 - public reporting on recent publishing and copyright disputes
 - private local-corpus structural analysis summarized only at a high level
+- a derived character-voice matrix and revision workflow based on statistics, abstractions, and craft-level observations only
 
-The repository does **not** include source ebooks, full text, chapter dumps, or long excerpts from copyrighted works.
+The repository does **not** include source ebooks, full text, chapter dumps, dialogue datasets, or long excerpts from copyrighted works.
 
 ## Safety and Copyright Boundary
 
@@ -109,6 +128,6 @@ This skill should:
 
 ## Attribution
 
-Generated with [女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill), then refined with a Darwin-style dry-run review.
+Generated with [女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill), then refined with Darwin-style dry-run reviews, including the character-voice and chapter-revision upgrade.
 
 This repository is an independent skill package and is not affiliated with Jiang Nan, his publishers, or rights holders.
