@@ -1,0 +1,2 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-05-29T10:08:07+08:00	working-tree	jiangnan-perspective	86.8	92.0	keep	dim3/dim4/dim9	补红灯失败模式、STOP契约、证据来源索引、内在张力、人物声音边界	dry_run
