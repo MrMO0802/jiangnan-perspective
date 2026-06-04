@@ -1,2 +1,3 @@
 timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
 2026-05-29T10:08:07+08:00	working-tree	jiangnan-perspective	86.8	92.0	keep	dim3/dim4/dim9	补红灯失败模式、STOP契约、证据来源索引、内在张力、人物声音边界	dry_run
+2026-06-04T17:19:31+08:00	working-tree	jiangnan-perspective	90.8	94.5	keep	dim2/dim5/dim8	达尔文全量dry-run：将本地文风规则固定为风格主基调，清理分析器旧命名和软化措辞，补自包含主基调改稿测试	prompt_dry_run
